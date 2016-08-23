@@ -1,7 +1,6 @@
 # docker-mongodb
 sudo mkdir -p /data/mongodb &&  \
   sudo docker pull mongo && \
-  sudo docker build mongo && \
   # will throw a warning if not exists, but that's okay
   sudo docker stop mongo && \ 
   # ditto
